@@ -19,9 +19,11 @@ struct Album: Identifiable{
 
 var albums: [Album] = [
 
+    
+    Album(albumName: "Arsenal des belles mélodies"),
     Album(albumName: "Bloqué"),
-    Album(albumName: "Fleur Froide - Second état : la cristalisation"),
     Album(albumName: "Se Yo"),
+    Album(albumName: "Droit Chemin"),
     Album(albumName: "Destin"),
     Album(albumName: "Tokooos II"),
     Album(albumName: "Tokooos II Gold"),
@@ -34,11 +36,9 @@ var albums: [Album] = [
     Album(albumName: "Flavour of Africa"),
     Album(albumName: "Control"),
     Album(albumName: "Gentleman 2.0"),
-    Album(albumName: "Droit Chemin"),
-    Album(albumName: "Arsenal des belles mélodies"),
     Album(albumName: "Power 'Kosa Leka' : Vol 1"),
     Album(albumName: "Historia"),
     Album(albumName: "Tokooos"),
-    
+    Album(albumName: "Fleur Froide - Second état : la cristalisation"),
     
 ]
